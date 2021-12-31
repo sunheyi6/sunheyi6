@@ -5,7 +5,7 @@
 
 - 🙋🏻 java程序员
 - 🏀 运音乐爱好者，游戏爱好者
-- 📫 wangjie.c@yuewen.com
+- 📫 sunheyi147@foxmail.com
 #### 技能点
 ![java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
