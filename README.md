@@ -4,7 +4,7 @@
 #### 关于我:
 
 - 🙋🏻 java程序员
-- 🏀 运音乐爱好者，游戏爱好者
+- 🏀 音乐爱好者，游戏爱好者
 - 📫 sunheyi147@foxmail.com
 #### 技能点
 ![java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
