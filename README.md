@@ -13,10 +13,12 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
-### Blog posts
+#### 最近更新
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-
+#### 我的作品
+<p><img width="200" src="{{img1}}" /> <img width="200" src="{{img2}}" /> <img width="200" src="{{img3}}" /></p>
+<p>Above are the last 3 pictures posted by <a href="https://www.instagram.com/jiuxin98/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/> @shyyouarebest!</a></p>
 
 
