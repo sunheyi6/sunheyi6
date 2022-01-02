@@ -1,0 +1,44 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Blog
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  # push:
+  #   branches: [ master ]
+  schedule:
+    # Runs at 10:00 UTC+8 every day
+    - cron: '0 * * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"        
+  blog:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      
+      - name: Start containers
+        run: docker-compose -f "docker-compose.yml" up -d --build
+
+      - name: Install node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Install dependencies
+        run: npm install
+          
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "http://localhost:1200/juejin/posts/1028798616188599"
+          
+      - name: Stop containers
+        if: always()
+        run: docker-compose -f "docker-compose.yml" down
