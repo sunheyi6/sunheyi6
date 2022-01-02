@@ -26,7 +26,3 @@
 - [对于项目经历的思考](https://juejin.cn/post/7037824907857625125)
 - [拒绝offer模板](https://juejin.cn/post/7037763118574862343)
 <!-- BLOG-POST-LIST:END -->
-
-#### 我的作品
-<p><img width="200" src="{{img1}}" /> <img width="200" src="{{img2}}" /> <img width="200" src="{{img3}}" /></p>
-<p>Above are the last 3 pictures posted by <a href="https://www.instagram.com/shyyouarebest/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" width="20"/> @shyyouarebest!</a></p>
