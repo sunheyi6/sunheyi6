@@ -38,7 +38,7 @@ jobs:
       - name: Push new README.md
         uses: mikeal/publish-to-github-action@master
         env:
-          GITHUB_TOKEN: ${{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}}
+          GITHUB_TOKEN: ${{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}}
         
   # 更新博客 Job2
   blog:
