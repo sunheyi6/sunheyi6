@@ -20,9 +20,9 @@
 
 #### 最近更新
 <!-- BLOG-POST-LIST:START -->
+- [junit中使用 @value](https://juejin.cn/post/7048436243150929927)
 - [git clone github仓库加速](https://juejin.cn/post/7045539717340725278)
 - [记录一下 log4j的漏洞](https://juejin.cn/post/7041461113703104548)
 - [我这坎坷的2021（苦笑）](https://juejin.cn/post/7038833121332543501)
 - [对于项目经历的思考](https://juejin.cn/post/7037824907857625125)
-- [拒绝offer模板](https://juejin.cn/post/7037763118574862343)
 <!-- BLOG-POST-LIST:END -->
