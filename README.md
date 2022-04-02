@@ -20,9 +20,9 @@
 
 #### 最近更新
 <!-- BLOG-POST-LIST:START -->
+- [cat /proc/cpuinfo详解](https://juejin.cn/post/7081992939613716494)
+- [java运算符奇淫技巧](https://juejin.cn/post/7081990862258831390)
 - [我所理解的DDD](https://juejin.cn/post/7061775836407398430)
 - [SQL error &quot;ORA-01722: invalid number&quot;](https://juejin.cn/post/7057787933071245320)
 - [业务架构演进](https://juejin.cn/post/7056407740301705252)
-- [oracle 日期大全](https://juejin.cn/post/7052518961111384094)
-- [junit中使用 @value](https://juejin.cn/post/7048436243150929927)
 <!-- BLOG-POST-LIST:END -->
