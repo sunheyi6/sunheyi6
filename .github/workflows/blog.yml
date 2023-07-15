@@ -37,7 +37,7 @@ jobs:
           
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "http://localhost:1200/juejin/posts/1028798616188599"
+          feed_list: "https://shyblog.world/feed.xml"
           
       - name: Stop containers
         if: always()
