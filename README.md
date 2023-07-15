@@ -19,10 +19,5 @@
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
 #### 最近更新
-<!-- BLOG-POST-LIST:START -->
-- [cat /proc/cpuinfo详解](https://juejin.cn/post/7081992939613716494)
-- [java运算符奇淫技巧](https://juejin.cn/post/7081990862258831390)
-- [我所理解的DDD](https://juejin.cn/post/7061775836407398430)
-- [SQL error &quot;ORA-01722: invalid number&quot;](https://juejin.cn/post/7057787933071245320)
-- [业务架构演进](https://juejin.cn/post/7056407740301705252)
-<!-- BLOG-POST-LIST:END -->
+<!-- blog-post-list:start -->
+<!-- blog-post-list:end -->
