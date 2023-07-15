@@ -1,18 +1,20 @@
-name: blog Readme
+name: Social Readme
 
 on:
   schedule:
-    # Runs at 10:00 UTC+8 every day
-    - cron: '0 * * * *'
+    - cron: '0 16 * * *'
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: shy-share/blog-Readme@main
+      - uses: sun0225SUN/Social-Readme@main
         with:
-          blog_rss_link: https://shyblog.world/rss.xml
+          blog_rss_link: https://blog.sunguoqi.com/rss.xml
           blog_limit: 5 # blog数量
-          brain_rss_link: https://shyblog.world/rss.xml
+          brain_rss_link: https://brain.sunguoqi.com/rss.xml
           brain_limit: 5
+          douban_name: sunguoqi
+          douban_limit: 5 # 豆瓣最新动态数量
+          commit_message: Updated social rss by social-readme # commit说明
