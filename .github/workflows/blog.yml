@@ -1,21 +1,21 @@
-name: blog
+name: Social Readme
+
 on:
-  push:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
 jobs:
-  blog:
+  update-readme:
     runs-on: ubuntu-latest
-    name: Fetch and Generate Blog Posts
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Generate
-        uses: ErrorGamer2000/github-readme-blog-post-action@v1
+      - uses: sun0225SUN/Social-Readme@main
         with:
-          feed_urls: https://shyblog.world/
-      - name: Commit changed files
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Save Generated Blog Posts
-          skip_checkout: true
+          blog_rss_link: https://shyblog.world/rss.xml
+          blog_limit: 5 # blog数量
+          brain_rss_link: https://shyblog.world/rss.xml
+          brain_limit: 5
+          douban_name: sunguoqi
+          douban_limit: 5 # 豆瓣最新动态数量
+          commit_message: Updated social rss by social-readme # commit说明
+          
