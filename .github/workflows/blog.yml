@@ -9,7 +9,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: shy-share/blog-Readme@main
+      - uses: shy-share/shy-share/.github/workflows/blog.yml@main
         with:
           blog_rss_link: https://shyblog.world/rss.xml
           blog_limit: 5 # blog数量
