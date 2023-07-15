@@ -1,4 +1,4 @@
-name: blog Readme
+name: blog
 
 on:
   schedule:
@@ -9,12 +9,10 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: shy-share/shy-share/.github/workflows/blog.yml@main
+      - name: blog
+        uses: your-username/your-repository/.github/workflows/blog.yml@main
         with:
           blog_rss_link: https://shyblog.world/rss.xml
-          blog_limit: 5 # blog数量
+          blog_limit: 5
           brain_rss_link: https://shyblog.world/rss.xml
           brain_limit: 5
-          douban_name: sunguoqi
-          douban_limit: 5 # 豆瓣最新动态数量
-          commit_message: Updated social rss by social-readme # commit说明
