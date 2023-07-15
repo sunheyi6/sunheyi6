@@ -19,5 +19,5 @@
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 
 #### 最近更新
-<!-- blog-post-list:start -->
-<!-- blog-post-list:end -->
+<!-- START_SECTION:blog -->
+<!-- END_SECTION:blog -->
