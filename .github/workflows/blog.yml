@@ -1,4 +1,4 @@
-name: blog
+name: blog Readme
 
 on:
   schedule:
@@ -10,7 +10,7 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: shy-share/shy-share@main
+      - uses: shy-share/blog-Readme@main
         with:
           blog_rss_link: https://shyblog.world/rss.xml
           blog_limit: 5 # blog数量
