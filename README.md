@@ -25,3 +25,5 @@
 <!-- START_SECTION:blog -->
 
 <!-- END_SECTION:blog -->
+<!-- START_SECTION:douban --> 
+<!-- END_SECTION:douban -->
