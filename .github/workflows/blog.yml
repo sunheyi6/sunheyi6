@@ -1,21 +1,19 @@
-name: Social Readme
-
+name: Latest blog post workflow
 on:
-  schedule:
-    - cron: '0 16 * * *'
-  workflow_dispatch:
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' # Runs every hour, on the hour
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+permissions:
+  contents: write # To write the generated contents to the readme
 
 jobs:
-  update-readme:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: sun0225SUN/Social-Readme@main
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Pull in dev.to posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          blog_rss_link: https://shyblog.world/rss.xml
-          blog_limit: 5 # blog数量
-          brain_rss_link: https://shyblog.world/rss.xml
-          brain_limit: 5
-          douban_name: sunguoqi
-          douban_limit: 5 # 豆瓣最新动态数量
-          commit_message: Updated social rss by social-readme # commit说明
-          
+          feed_list: "https://shyblog.world/rss.xml"
