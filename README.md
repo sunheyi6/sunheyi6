@@ -22,3 +22,5 @@
 <!-- START_SECTION:brain -->
 
 <!-- END_SECTION:brain -->
+<!-- START_SECTION:blog --> 
+<!-- END_SECTION:blog -->
