@@ -1,5 +1,5 @@
 ### Hi.bro, I’m heyisun.
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sunheyi6&bg_color=30,C2FFD8,465EFB&title_color=fff&text_color=fff)
+![Anurag's GitHub stats](https://pixel-profile.vercel.app/api/github-stats?username=sunheyi6&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb))
 
 #### 关于我:
 
